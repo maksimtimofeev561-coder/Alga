@@ -53,6 +53,6 @@ Python
 a = list()
 b = int(input())
 for i in range(b):
-    a.append(int(input()))
+    a.append(input())
 print(a)
 
