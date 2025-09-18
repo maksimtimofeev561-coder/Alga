@@ -95,7 +95,7 @@ int top = stack.peek();  // просмотр вершины
 stack.pop();        // удаление
 ```
 ### C++
-```
+```cpp
 std::stack<std::string> st;
 st.push("элемент1");
 st.push("элемент2");
