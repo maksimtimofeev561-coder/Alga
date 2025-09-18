@@ -58,3 +58,42 @@ for i in range(b):
     a.append(input())
 print(a)
 ```
+Организация стека
+### С++
+#include <iostream>
+#include <stack>
+
+int main() {
+    std::stack<int> myStack;  // Создание стека
+    
+    myStack.push(100);  // Добавление элементов
+    myStack.push(200);
+    myStack.push(300);
+    
+    while (!myStack.empty()) {
+        std::cout << myStack.top() << " ";  // Получение вершины
+        myStack.pop();  // Удаление вершины
+    }
+}
+
+## Создание стека
+### Python
+stack = []
+stack.append(1)  # Добавление в стек
+stack.append(2)
+top = stack.pop()  # Извлечение из стека: 2
+
+### Java
+import java.util.Stack;
+
+Stack<Integer> stack = new Stack<>();
+stack.push(10);     // добавление
+int top = stack.peek();  // просмотр вершины
+stack.pop();        // удаление
+
+### C++
+std::stack<std::string> st;
+st.push("элемент1");
+st.push("элемент2");
+std::string top = st.top();
+st.pop();
