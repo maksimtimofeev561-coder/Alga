@@ -60,7 +60,7 @@ print(a)
 ```
 ## Организация стека
 ### С++
-```
+```cpp
 #include <iostream>
 #include <stack>
 
@@ -79,14 +79,14 @@ int main() {
 ```
 ## Создание стека
 ### Python
-```
+```py
 stack = []
 stack.append(1)  # Добавление в стек
 stack.append(2)
 top = stack.pop()  # Извлечение из стека: 2
 ```
 ### Java
-```
+```java
 import java.util.Stack;
 
 Stack<Integer> stack = new Stack<>();
@@ -102,3 +102,5 @@ st.push("элемент2");
 std::string top = st.top();
 st.pop();
 ```
+## Вывод
+В каждом языке реализован свой стиль работы с массивами и стеками: C++ ориентируется на максимальный контроль и эффективность, Java на безопасность и чёткую структуру, а Python на простоту и скорость написания кода.
