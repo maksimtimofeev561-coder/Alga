@@ -1,7 +1,7 @@
 Сравнение реализации массивов (списков) и стеков в C++, Java и Python
-Создание массива (списка)
-C++
-
+##Создание массива (списка)
+### C++
+```cpp
 #include <iostream>
 int main() {
     const int SIZE = 5; // Размер массива
@@ -22,8 +22,9 @@ int main() {
 
     return 0;
 }
-
-Java
+```
+### Java
+```java
 import java.util.Scanner;
 
 public class StaticArrayExample {
@@ -48,11 +49,12 @@ public class StaticArrayExample {
         scanner.close();
     }
 }
-
-Python
+```
+### Python
+```py
 a = list()
 b = int(input())
 for i in range(b):
     a.append(input())
 print(a)
-
+```
